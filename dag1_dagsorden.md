@@ -1,13 +1,15 @@
 # Dagsorden React dag1
-- Hvad er [react]()
+- Hvad er [react](https://reactjs.org/)
 - Hvilke problemer løser det
+- [create-react-app](https://github.com/facebook/create-react-app/blob/master/README.md)
+- Class exercise: start new app and render a list of names as table:  
+`const names = [{'fname':'Anders','lname':'Henriksen'},{'fname':'Britta','lname':'Albertsen'},{'fname':'Kalle','lname':'Fredborg'}]`
+- [Virtual DOM](https://miro.medium.com/max/1024/0*_C52yYMRTDuMtdBA)
+- [React Native](https://reactnative.dev/docs/getting-started)
 - [Hvad er et modul](https://medium.com/backticks-tildes/introduction-to-es6-modules-49956f580da) (ES6)
     - import/export
 - Babel og Webpack
     - single js file, dev server
-- [create-react-app](https://github.com/facebook/create-react-app/blob/master/README.md)
-- [Virtual DOM](https://miro.medium.com/max/1024/0*_C52yYMRTDuMtdBA)
-- [React Native](https://reactnative.dev/docs/getting-started)
 - Hvad er en component i react:
 ```
 function Welcome(props) {
