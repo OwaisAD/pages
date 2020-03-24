@@ -12,3 +12,7 @@ Create a statefull function using useState() to read input from a input field (a
 - Second hook: [useEffect](https://reactjs.org/docs/hooks-effect.html)  
 **Class exercise**:   
 Create a functional component that when loaded gets data from [this api](https://jsonplaceholder.typicode.com/albums) and renders it as an html table  
+- [List and keys](https://reactjs.org/docs/lists-and-keys.html#basic-list-component)   
+**Class exercise**:  
+Create a component that can render a list of names as `<ul>`.  
+Check in browser console that you do not get a warning like: 
