@@ -54,5 +54,10 @@ function App() {
 - [Class component vs functional component](https://dev.to/danielleye/react-class-component-vs-function-component-with-hooks-13dg)
 - **Class exercise**: Create 2 new react components: One class component and one functional component. They should both recieve props: cars and given an array of car objects, should render the cars as html table.
 
-
-
+- Destructuring [objects](https://wesbos.com/destructuring-objects/) and arrays
+- Set [default values](https://www.samanthaming.com/tidbits/52-3-ways-to-set-default-value/) 
+- ***Class exercise**: Use object destructuring for this object:
+  - `{'name':'Peter','age':34,'height':194}` and print each variable to the console
+  - set a default value for weight when destructuring the object
+  - use || operator to set a default value for the age variable
+  - use && operator to check the object for weight property and if present log both weight and height to console
