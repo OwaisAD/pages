@@ -2,4 +2,3 @@
 - Lifting state up
 - Asyncrone server kald
 - GET, POST, PUT, DELETE
-- 

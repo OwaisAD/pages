@@ -33,7 +33,7 @@ ReactDOM.render(
 );
 ```
 - Hvad er props:
-```
+```js
 function Welcome(props) {
   return <h1> Hello, 
       {props.name}
@@ -50,7 +50,7 @@ function App() {
     </div>
   );
 }
-```
+```  
 - [Class component vs functional component](https://dev.to/danielleye/react-class-component-vs-function-component-with-hooks-13dg)
 - **Class exercise**: Create 2 new react components: One class component and one functional component. They should both recieve props: cars and given an array of car objects, should render the cars as html table.
 
