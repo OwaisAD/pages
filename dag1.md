@@ -12,7 +12,7 @@
 - Babel og Webpack
     - single js file, dev server
 - Hvad er en component i react:
-```
+```js
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }
