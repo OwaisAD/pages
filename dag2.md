@@ -16,3 +16,4 @@ Create a functional component that when loaded gets data from [this api](https:/
 **Class exercise**:  
 Create a component that can render a list of names as `<ul>`.  
 Check in browser console that you do not get a warning like: 
+`Warning: Each child in a list should have a unique "key" prop.`
