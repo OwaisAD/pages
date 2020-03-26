@@ -29,7 +29,7 @@ const ApiFacade = () => {
   };
 
   const postData = async (url, data) => {
-    const options = makeOptions("GET"); //True add's the token to the request
+    const options = makeOptions("POST",data); //True add's the token to the request
     const response = await fetch(url, options).then(handleHttpErrors);
     return response;
   };
