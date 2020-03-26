@@ -1,7 +1,13 @@
 # React dag 3
 ![](images/lifting.png)
 - [Lifting state up](https://reactjs.org/docs/lifting-state-up.html)
-- [Example code](LiftingState.js)
-- [Asyncrone server kald]()
-  - GET, POST, PUT, DELETE
+- [Example code](LiftingState.js)  
+
+**Exercise**: Create a functional component that renders 2 other components: Comp 1 contains an input field to enter fahrenheit degrees and Comp2 shows the result in Celcius.
+- [Asyncrone server kald](FetchDemo.js)
+  - GET, POST, PUT, DELETE  
+
+**Exercise**: Create a data facade that can fetch data. Use the [Jsonserver](jsonserver.md) to create a dev backend api. (Make this the simplest possible solution. IE dont use all the details from the example code above)
 - [Async-Await](https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9)
+
+**Exercise**: In your datafacade from last exercise add post, put and delete. Also use async await for the facade methods. Try and see if you can render error messages with a http status code. Test it with wrong parameters, ressource and with wrong host (gives a network error NOT a server response)
