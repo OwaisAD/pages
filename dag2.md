@@ -8,7 +8,7 @@ Create a stateful class component that when clicking a button shows the current 
 - [Handling events](https://reactjs.org/docs/handling-events.html)
 - [Forms and controlled components](https://reactjs.org/docs/forms.html#controlled-components)  
 **Class exercise 2**:   
-Create a statefull function using useState() to read input from a input field (as characters are entered) and add it to a list that gets updated on the page.
+Create a statefull function using useState() to read input from a input field (as characters are entered) and add it to a list that gets updated on the page when form is submitted.
 - Second hook: [useEffect](https://reactjs.org/docs/hooks-effect.html)  
 **Class exercise 3**:   
 Create a functional component that when loaded gets data from [this api](https://jsonplaceholder.typicode.com/albums) and renders it as an html table  
