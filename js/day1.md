@@ -43,6 +43,7 @@ source ([Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
     - operator types: 
         - assignment operators (=, +=, *= etc.)
         - comparison operators (===, !==, >, <, <=, )
+            - var someVar = 0; alert(someVar == false); //evaluates true – zero is a falsy, alert(someVar === false); //evaluates false (zero is a number, not a boolean)
         - arithmetic operators (+,-,*,/,%,++, etc)
         - logical operators (&&, ||, !)
         - string operators (+, +=)
@@ -53,7 +54,16 @@ source ([Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
     - 
 - String methods
 - [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
-- 
+- Array
+    - map((el)=> return el)
+    - filter((el)=> return true)
+- Object
+    - iterate object (for (const [key, value] of Object.entries(object1)) {console.log(`${key}: ${value}`);})
+    - to list (Object.entries(myObj))
+- js peculiarities
+    - [see day1.js](day1.js)
+- setTimeout
+    - setTimeout(function() { alert(someVar); }, 1000);
 
 
     
