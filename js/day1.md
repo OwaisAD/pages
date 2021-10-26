@@ -38,17 +38,15 @@ source ([Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
     - the separate 'this' for each new function
     - build-in-functions isNaN(), parseInt("3")
 - operators (a lot like java)
-    - destructuring const [one, two, three] = myArr;
-    - comparison === vs ==
+    - destructuring const with spread operator. `const [a, b, ...rest] = [10, 20, 30, 40, 50]; console.log(rest); //outputs [30,40,50]`
+    - comparison `===` vs `==`
     - operator types: 
-        - assignment operators (=, +=, *= etc.)
-        - comparison operators (===, !==, >, <, <=, )
-            - var someVar = 0; alert(someVar == false); //evaluates true – zero is a falsy, alert(someVar === false); //evaluates false (zero is a number, not a boolean)
-        - arithmetic operators (+,-,*,/,%,++, etc)
-        - logical operators (&&, ||, !)
-        - string operators (+, +=)
-        - ternary operator (condition ? val1 : val2)
-        - typeof operator (typeof someVar)
+        - assignment operators (`=`, `+=`, `*=` etc.)
+        - comparison operators (`===`, `!==`, `>`, `<`, `<=`, )
+        - logical operators `&&`, `||`, `!`
+        - string operators `+`, `+=`
+        - ternary operator `condition ? val1 : val2`
+        - typeof operator `typeof someVar`
         - in operator (idx or key in object) (make in car == true)
 - Number, Math, Date objects
     - 
