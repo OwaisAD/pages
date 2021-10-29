@@ -31,7 +31,7 @@ Extensions:
 - [How to use](https://hacks.mozilla.org/2017/07/debug-react-redux-firefox-add-ons/)
 
 ## Bootstrap
-- [Live example](https://hartmanndemocode.github.io/react2021fall/pagination)
+- [Live example](https://edu.bugelhartmann.dk/react2021fall/flipCards)
 - [Github](https://github.com/HartmannDemoCode/react2021fall/)
 
 ## Deployment
