@@ -20,9 +20,16 @@
         }
 </div>
 ```
-
+**Class Exercise:** 
+- create a component that gets an array from a jsonserver
+- Render a table with the data
+- Make conditional rendering on the the table head (so that only column names are shown if there is any data to show).
 ## Debugging
 Extensions:
 - [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
 - [How to use](https://hacks.mozilla.org/2017/07/debug-react-redux-firefox-add-ons/)
+
+## Bootstrap
+- [Live example](https://hartmanndemocode.github.io/react2021fall/pagination)
+- [Github](https://github.com/HartmannDemoCode/react2021fall/)
