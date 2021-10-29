@@ -12,7 +12,8 @@ Based on official documentation.
 
 1. Update your BrowserRouter by adding a basename. Example: `<BrowserRouter basename="/webapp">`.
 2. Specify a homepage on first line of your package.json. Example: `"homepage": "/webapp"`.
-3. In rare cases: (If you are referencing a static file by its relative path, you should add the subdirectory to that reference. Example: src="/static/logo/logo.png" becomes src="/webapp/static/logo/logo.png".)
+3.If you are referencing a static file by its relative path, you should add the subdirectory to that reference. 
+  - Example: `src="/static/logo/logo.png"` becomes `src="/webapp/static/logo/logo.png"`.
 
 ### Nginx Changes:
 
