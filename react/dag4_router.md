@@ -33,3 +33,6 @@ Extensions:
 ## Bootstrap
 - [Live example](https://hartmanndemocode.github.io/react2021fall/pagination)
 - [Github](https://github.com/HartmannDemoCode/react2021fall/)
+
+## Deployment
+[Small guide to deploy react browser router to nginx on sub location](deploy_react_router.md)
