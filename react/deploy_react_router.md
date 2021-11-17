@@ -1,5 +1,6 @@
 # Deploy React Router App to nginx
 [See context here](https://stackoverflow.com/questions/53207059/react-nginx-routing-to-subdirectory)
+[See demo project here](https://github.com/HartmannDemoCode/react2021fall) with a script.sh file to deploy to droplet. If on windows, then run the scriptfile from git bash.
 
 ### Assumptions:
 
