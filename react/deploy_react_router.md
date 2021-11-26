@@ -1,11 +1,11 @@
 # Deploy React Router App to nginx
-[See context here](https://stackoverflow.com/questions/53207059/react-nginx-routing-to-subdirectory)
+[See context here](https://stackoverflow.com/questions/53207059/react-nginx-routing-to-subdirectory)  
 [See demo project here](https://github.com/HartmannDemoCode/react2021fall) with a script.sh file to deploy to droplet. If on windows, then run the scriptfile from git bash.
 
 ### Assumptions:
 
 1. Your React App is based on create-react-app package (you are using react-router-dom).
-2. You are using Nginx and the root path is being used by another service (or even another React/Gatsby App which is my case).
+2. You are using Nginx and the root path is being used by another service
 3. You want to deploy the React App on a subdirectory and be able to serve all statics of your React App from that subdirectory.
 
 ### React App Changes:
@@ -15,6 +15,7 @@ Based on official documentation.
 2. Specify a homepage on first line of your package.json. Example: `"homepage": "/webapp"`.
 3.If you are referencing a static file by its relative path, you should add the subdirectory to that reference. 
   - Example: `src="/static/logo/logo.png"` becomes `src="/webapp/static/logo/logo.png"`.
+  - Example with react-bootstrap Nav.Link: `<Nav.Link href="/webapp/about">About</Nav.Link>` **different** from using react-router NavLink: `NavLink activeClassName="active" to="/about">About</NavLink>`
 
 ### Nginx Changes:
 
@@ -71,4 +72,9 @@ server {
     listen 80;
     return 404; # managed by Certbot
 }
+```
+### Deploy script
+```sh
+npm run build
+scp -r ./build root@myamazingdomain.com:/var/www/webapp
 ```
