@@ -75,6 +75,7 @@ Move the cursor to a location in the text:
 `vwS<surround char>`: Select word and **surrounds** with the char or brackets. Surround chars can be `[`,`{`,`(`,`'`,`"`,`*`,`#` and backticks.      
 `v3lc()jj<shift>P`: **surround** next 3 chars with parentheses (v:visual select, 3l: 3 places right, c: change, parenthesis (or any other thing to surround with, jj: normal mode, shift P insert behind last char)).   
 `viwSb`: viw:select current word, S:surround, b: braces. (Or use any selection and shift S + any type of brackets).   
+`vitSt<tag/>`: Surround tag with other tag. `vat`: will mark the outer tag rather than vit marking the innner tag.
 `di"2hp2dl`: **Reove surrounding quotes**. (`di"` - delete inside quotes. `2hp` - move left twice and insert previously deleted. `2dl` - remove the 2 quotes)  
 `ds(`: **remove surrounding (['" or other**
 `r<enter>`: replace current char (eg a space) with a newline
