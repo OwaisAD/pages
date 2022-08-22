@@ -26,12 +26,6 @@ After this day you are expected to:
 
 ### Rammefaktorer
 
-Vi skal være i et nyt lokale. Så skærmen og diverse ting skal flyttes. Det gør vi fra morgenstunden.
-
-Ann-Sofi er ny på holdet. Hun skal præsenteres.
-
-Der er et nyt finanshold på banen, så dem skal vi leve med side om side.
-
 ### Læringsforudsætninger
 
 Eksamen er vel overstået. Nogle vil sikkert være lidt pressede over det noget mere ambitiøse skema i år. Vi skal også have nye gruppe under CA opgaverne etc.
@@ -43,19 +37,14 @@ Eksamen er vel overstået. Nogle vil sikkert være lidt pressede over det noget 
 ### Hvordan skal vi organisere os bedst muligt?
 
 1. Skema - er det spørgsmål og tvivl?
-2. Gennemgang af semesterets opbygning. Brug GSheet.
+2. Gennemgang af semesterets opbygning. Brug Google Sheet.
 3. SchoolHacks. På Campus og/eller online?
 4. Review. Bliver nogle gange anvendt til undervisning. 
-5. Brug af Discord. Skal vi hoppe på Lyngbys server eller egen?
+5. Brug af Discord. 
 6. Beskeder fra Moodle. Tjek at alle har mail-klient kørende.
 7. Vekslende undervisere. Kan se i skema på Moodle.
-8. Aakirkebygrillen hackaton - hvad gør vi
-9. Bæredygtigsdag fredag i uge 46
-10. Campusfællesskab - er der en interesse i noget fælles på tværs?
-11. Vi skal have Ann-Sofi forbi lokalet - også selvom de kender hende allerede.
 
 - [Velkomst præsentation](https://docs.google.com/presentation/d/1tW9MKNHHQrLjVKlLWstpCodJSLiNV-uFyAFHtwta6IU/edit?usp=sharing)
-
 
 #### Repeter Linux commandoer
 Lav en fælles brain storm over de vigtigste kommandoer
