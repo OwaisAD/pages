@@ -29,8 +29,19 @@ And the other side in a BI-directional relationship (the **OWNING** side)
 ```
 ##### @ManyToMany
 ```Java
-
+@ManyToMany(mappedBy = "children") //Target side of relationsship (inverse side)
+private List<Toy> toys;
 ```
+and the owning side:
+```java
+@ManyToMany(cascade = CascadeType.ALL)
+@JoinTable( // This is now the owner side of the relationsship
+    name = "children_toys",
+    joinColumns = @JoinColumn(name = "child_id"),
+    inverseJoinColumns = @JoinColumn(name = "toy_id"))
+private List<Child> children;
+```
+
 ## Cascade types
 BE CAREFUL with these
 They can be useful, but dont use them to fix problems. Rather understand why the problem appears and fix it without cascading while training with JPA.
