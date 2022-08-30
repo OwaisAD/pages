@@ -43,6 +43,29 @@ and the owning side:
     inverseJoinColumns = @JoinColumn(name = "toy_id"))
 private List<Child> children;
 ```
+##### Necessary steps
+1. Add @ManyToMany annotations to each entity
+2. In both entities set getter, setter and adder method (Remember to add in both directions)
+3. In facade create/update make sure to loop the collection and merge child objects
+```java
+public Project create(Project p) {
+        EntityManager em = emf.createEntityManager();
+        em.getTransaction().begin();
+        Set<Employee> employees = new HashSet<>();
+        p.getEmployees().forEach((employee)->{
+            if(employee.getId()!=null && em.find(Employee.class, employee.getId())!=null){
+                em.merge(employee);
+            } else {
+                em.persist(employee);
+            }
+        });
+        em.persist(p);
+        em.getTransaction().commit();
+        em.close();
+        return p;
+    }
+```
+
 
 ## Cascade types
 BE CAREFUL with these
