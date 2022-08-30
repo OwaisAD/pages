@@ -28,6 +28,8 @@ And the other side in a BI-directional relationship (the **OWNING** side)
     private Parent parent;
 ```
 ##### @ManyToMany
+Many to many relationship between children and toys:
+
 ```Java
 @ManyToMany(mappedBy = "children") //Target side of relationsship (inverse side)
 private List<Toy> toys;

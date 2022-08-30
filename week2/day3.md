@@ -1,1 +1,2 @@
 # Day 3 JPQL
+19|<|remote.server|>|https://www.cphdat.dk/manager/text|</|remote.server|>	19|<|remote.server|>|https://www.cphdat.dk/manager/text|</|remote.server|>	19|<|remote.server|>|https://www.cphdat.dk/manager/text|</|remote.server|>	19|<|remote.server|>|https://www.cphdat.dk/manager/text|</|remote.server|>
