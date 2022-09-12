@@ -5,10 +5,10 @@
   1. Remove the .git folder and git init to your own repository
   2. Create a new dev database locally (eg. my_new_db)
   3. In Pom.xml do 4 things:
-    1. Change name
-    2. Change artifactId
-    3. Change remote.server
-    4. Change db.name (my_new_db)
+      1. Change name
+      2. Change artifactId
+      3. Change remote.server
+      4. Change db.name (my_new_db)
   4. In .github/workflows/mavenworkflow.yml change:
     1. (if necessary) to name of your main branch: "main" or "master"
     2. the name of your test database (only if you changed it away from startcode_test)
