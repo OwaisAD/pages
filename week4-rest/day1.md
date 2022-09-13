@@ -2,7 +2,7 @@
 ### Start code
 - Find on moodle and clone
 - Adjust the project in 5 steps:
-  1. Remove the .git folder and git init to your own repository
+  1. Remove the .git folder and git init to your own repository. Create a corresponding github repo (create repo secrets for REMOTE_USER and REMOTE_PW to use for tomcat on droplet container)
   2. Create a new dev database locally (eg. my_new_db)
   3. In Pom.xml do 4 things:
     1. Change name

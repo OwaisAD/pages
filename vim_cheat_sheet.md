@@ -118,30 +118,3 @@ with relative line numbers we can do `c9k`: to delete 9 lines up and put in inse
 `qw`: Start recording macro into regiser w
 `q`: End recording macro
 `5@w`: Play macro 5 times
-``: 
-
-'xxx',
-'yyy, 3',
-'zzz, 4 zz',
-'æææ, 88 æææ',
-'øøø',
-'ååå',
-'',
-'',
-'/*',
-'* 'YOLO'',
-'HOHO',
-'PAUWAU',
-'*/',
-
-{
-kakadue --'YOYO',
-    VERSION_'HOHO',
-([VERSION_'FOMO'])
-    kakadue --'YOYO',
-}
-support(String "hoho").common([ho]);
-
-
-
-Yeah 'YOYO hoho'
